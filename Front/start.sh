@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
-./../rancher-compose --project-name balancer \
+./../rancher-compose --project-name balancer-front \
     --url http://192.168.99.100:8080/v1/projects/1a5 \
-    --access-key C52858F6EB9F5AA2C146 \
-    --secret-key TvoU6Nnde4AnQJtiZ39wp9w7Y48LhZM67a7sZmNz \
+    --access-key 9C01C1E19D6C1AEB981F \
+    --secret-key CaNrGJUuvy3DcHcKx4eTEqkg78U1vvJM1mo5Ysmu \
     -f docker-compose.yml \
     --verbose up \
     -d --force-upgrade \

@@ -1,12 +1,12 @@
 chat-lb:
-  scale: 2
+  scale: 1
   lb_config:
     certs: []
     port_rules:
     - priority: 1
       protocol: http
       service:  chat-ms/chat-ms
-      source_port: 80
+      source_port: 22000
       target_port: 4005
   health_check:
     response_timeout: 2000

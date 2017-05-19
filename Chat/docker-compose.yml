@@ -1,7 +1,7 @@
 chat-lb:
   image: rancher/lb-service-haproxy:v0.7.1
   ports:
-    - "80:20005"
+    - "80:22000"
   labels:
     io.rancher.container.agent.role: environmentAdmin
     io.rancher.container.create_agent: 'true'

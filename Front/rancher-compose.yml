@@ -1,5 +1,5 @@
 front-lb:
-  scale: 2
+  scale: 1
   lb_config:
     certs: []
     port_rules:
